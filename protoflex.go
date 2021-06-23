@@ -1,4 +1,4 @@
-package mixlistener
+package mixlisten
 
 type flexListener struct {
 	ProtoListener

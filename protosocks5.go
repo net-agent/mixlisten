@@ -1,4 +1,4 @@
-package mixlistener
+package mixlisten
 
 type socks5Listener struct {
 	ProtoListener
