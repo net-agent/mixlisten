@@ -6,7 +6,7 @@ type flexListener struct {
 
 // Flex 监听Flex协议
 func Flex() ProtoListener {
-	return &tunnelListener{
+	return &flexListener{
 		ProtoListener: NewProtobase(FlexName),
 	}
 }
